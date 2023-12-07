@@ -1,0 +1,27 @@
+body{
+  background-image:url("../images/onclick1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Arial;
+}
+h1{
+	text-transform: uppercase;
+}
+.para1{
+	background-color:maroon;
+	letter-spacing:2px;
+	color:white;
+	text-align:center;
+	font-size: 20px;
+	margin-left:10px;
+	margin-right:10px;
+}
+.meal{
+	background-image:url("../images/Meal plan.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: Arial;
+	
+}

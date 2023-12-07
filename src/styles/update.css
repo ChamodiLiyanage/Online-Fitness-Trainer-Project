@@ -1,0 +1,74 @@
+@charset "utf-8";
+/*css for user account page*/
+
+.user{
+	width:400px;
+	height:400px;
+	border: 3px solid #333;
+	clear:both;
+}
+
+#userImg{
+	width:100px;
+	height:100px;
+	float:left;
+	margin-bottom:10px;
+}
+
+.imgBttn{
+	margin-top:80px;
+	margin-left:5px;
+	background-color:#333;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+
+
+div.right{
+	width:600px;
+	height:650px;
+	border:2px solid #333;
+	margin-bottom:10px;
+	float:right;
+	margin-right:10px
+}
+
+div.clear{
+	clear:both;
+}
+
+div.left{
+	float:left;
+}
+
+
+
+.info{
+  width: 200px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #333;
+  color: white;
+}
+::placeholder{
+	color:white;
+}
+
+.update{
+	background-color:#333;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+}

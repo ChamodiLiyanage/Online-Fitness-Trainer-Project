@@ -1,0 +1,84 @@
+body{
+  background-image:url("../images/reg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.regbtn{
+	display:inline-block;
+    background-color: #080230fd;
+    color:#fff;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 20px;
+    margin: 10px 5px;
+    width: 20%;
+    cursor: pointer;
+    font-size: 13px;
+}
+.regbtn:hover{
+	border: 1px solid #F8FD02;
+	background: #F8FD02;
+    transition: 1s;	
+}
+.regbtn a {
+	color: white;
+	text-decoration: none;
+	font-size: 13px;
+}
+.regfrm{
+	color: #333;
+	text-decoration: none;
+	font-size: 13px;
+}
+.admin-content{
+	width: 50%;
+	margin: auto;
+	
+}
+.admin-content input[type="text"],input[type="number"],input[type="email"],input[type="password"],select,textarea{
+	margin-top: 5px;
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 17px;
+	outline: none;
+	border: 1px solid #063970;
+}
+
+#disclaimer{
+	width: 10%;
+}
+ 
+h2{
+	font-size: 36px;
+	font-weight: 600;
+}
+.flex{
+    display: flex;
+    gap: 10px;
+}
+input:hover {
+	border: 1px solid #0aa0db;
+}
+
+select:hover {
+	border: 1px solid #0aa0db;
+}
+textarea:hover {
+	border: 1px solid #0aa0db;
+}
+	
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

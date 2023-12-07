@@ -1,0 +1,112 @@
+@charset "utf-8";
+/*css for user account page*/
+
+.user{
+	width:300px;
+	height:200px;
+	border: 3px solid #333;
+	clear:both;
+}
+
+#userImg{
+	width:100px;
+	height:100px;
+	float:left;
+	margin-bottom:10px;
+}
+
+#imgBttn{
+	margin-top:80px;
+	margin-left:5px;
+	background-color:#333;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#userEdit{
+	background-color:#333;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	cursor: pointer;
+	float:right;
+	position:relative;
+	bottom:35px;
+	margin-right:5px;
+}
+
+#billingEdit{
+	background-color:#333;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	cursor: pointer;
+	float:right;
+	position:relative;
+	bottom:35px;
+	margin-right:5px;
+}
+
+
+div.right{
+	width:600px;
+	height:650px;
+	border:2px solid #333;
+	margin-bottom:10px;
+	float:right;
+	margin-right:10px
+}
+
+div.clear{
+	clear:both;
+}
+
+
+
+div.left{
+	float:left;
+}
+
+
+
+#toggleBttn{
+	background-color:#333;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	cursor: pointer;
+	float:right;
+	position:relative;
+	bottom:35px;
+	margin-right:5px;
+}
+
+#check{
+	float:right;
+	background-color:#333;
+	position:relative;
+	top:20px;
+	margin-left:20px;
+	height: 20px;
+	width: 20px;
+	cursor:pointer;
+	
+}
+
+#mail{
+	float:left;
+}

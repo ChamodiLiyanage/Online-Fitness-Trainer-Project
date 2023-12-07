@@ -1,0 +1,33 @@
+
+.column{
+	float:left;
+	margin-left:30px;
+
+}
+
+/*text on image*/
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.row{
+	width:100%;
+	clear:both;
+}
+
+h4 {
+	border:#333;
+	border-width:5px;
+	border-style:solid;
+	padding:5px;
+}

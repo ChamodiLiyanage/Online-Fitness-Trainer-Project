@@ -1,0 +1,135 @@
+@charset "utf-8";
+/*contains all css for the template of the webpage. Including menu navigation bar, footer and lines*/
+
+body{
+background-image:url("../images/background3.jpg");
+background-size:500%;
+}
+
+/*start of styles for nav bar*/
+
+/* Create a top navigation bar with a black background color  */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+.logo2{
+	height:50px;
+	width:75px;
+	float:left;
+	padding-left:0px;
+	padding-right:50px;
+}
+
+  /* Style the links inside the navigation bar */
+  .menuElements{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Create a right-aligned (split) link inside the navigation bar */
+  .topnav a.split {
+    float: right;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  /* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  
+  
+.cart{
+	height:50px;
+	width:50px;
+	padding-right:15px;
+	float:left;
+}
+
+#search{
+	display: block;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: Arial;
+	background-color:grey;
+	color:black;
+	float:left;
+}
+#search::placeholder{
+	color:black;
+	font-family:Arial;
+}
+
+.logo3{
+
+	height:50px;
+	width:50px;
+}
+
+.cart:hover{
+	background-color: #ddd;
+    color: black;
+}
+	
+.sign{
+    background-color: #04AA6D;
+    color: white;
+	float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+	
+ /*end of nav bar*/
+
+
+.foot{
+	font-size:16px;
+	font-family-Arial;
+	text-decoration:none;
+	color:black;
+}
+
+.footText{
+	float:left;
+}
+
+.foot:hover{
+	text-decoration:underline;
+}
+
+.dark{
+	background-image:url("../images/background5.jpg");
+	background-size:100%;
+	color:white;
+}
+
+.icons{
+	float:right;
+	width:35px;
+	height:35px;
+	padding-right:20px;
+}
+
+hr{
+	border:1px solid #333;
+}

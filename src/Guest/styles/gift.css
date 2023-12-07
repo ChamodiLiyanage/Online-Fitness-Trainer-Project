@@ -1,0 +1,64 @@
+/*1st line gift card*/
+{
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 200px;
+  padding: 10px 10px 10px 50px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*2nd line gift card*/
+
+{
+  box-sizing: border-box;
+}
+.column112 {
+  float: left;
+  width: 200px;
+  padding: 50px 100px 10px 300px;
+}
+
+.column113 {
+  float: left;
+  width: 300px;
+  padding: 50px 100px 10px 70px;
+}
+
+/* Clear floats after image containers */
+.row11::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+
+.box{
+
+  border: 2px solid black;
+  padding: 100px 50px;
+  clear:both;
+  	
+}
+
+/*bottom part*/
+{
+  box-sizing: border-box;
+}
+.colom {
+  float: left;
+  margin-right:40px;
+  position:relative;
+  bottom:40px;
+  
+}
+.info{
+	margin-left:40px;
+}
+

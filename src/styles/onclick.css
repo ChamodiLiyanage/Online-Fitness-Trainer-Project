@@ -1,0 +1,13 @@
+.video{
+	background-color:#333;
+}
+
+.links{
+	text-decoration:none;
+	color:blue;
+}
+
+a.links:hover{
+	text-decoration:underline;
+}
+	
